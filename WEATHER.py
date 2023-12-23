@@ -34,7 +34,7 @@ def display_weather_info(city, weather_data):
         print(f"The Weather In {city} Is: {weather}")
         print(f"The Temperature In {city} Is: {temp_result}{unit_symbol}")
         
-        # Ekstra bilgileri görüntüleme
+        
         humidity = weather_data['main']['humidity']
         wind_speed = weather_data['wind']['speed']
         print(f"Humidity in {city}: {humidity}%")
